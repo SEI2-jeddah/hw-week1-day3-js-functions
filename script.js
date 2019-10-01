@@ -15,15 +15,8 @@ console.log("==============");
 
 function isCharacterAVowel(char){
   console.log("Is it Vowel");
-  if(char === 'A'){
-    console.log("'true'");
-  }else if(char === 'U'){
-    console.log("'true'");
-  }else if(char === 'O'){
-    console.log("'true'");
-  }else if(char === 'I'){
-    console.log("'true'");
-  }else if(char === 'E'){
+  if(char === 'A' || char === 'U' || char === 'O' || char === 'E' || char === 'I' ||
+     char === 'a' || char === 'u' || char === 'o' || char === 'e' || char === 'i'){
     console.log("'true'");
   }else{
     console.log("'false'");
