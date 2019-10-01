@@ -10,18 +10,71 @@ Define a function `currencyConverter` that takes two arguments an amount and a c
 > - 1 Riyal = 4.68 Egyptian pound 
 > - 1 Riyal = 0.10 Bahraini dinar
 
+function currencyConverter (amount,currency)
+{
+  if (currency == "USD")
+  {
+    return 3.75 * amount +" Riyal"
+  }
+  else if (currency == "GBP")
+  {
+    return 4.62 * amount +" Riyal"
+  }
+  else if (currency == "EGP")
+  {
+    return 0.23 * amount +" Riyal"
+  }
+  else if (currency == "BD")
+  {
+    return 9.95 * amount +" Riyal"
+  }
+    
+}
+currencyConverter(100,"BD")
 ---
 
 ### isCharacterAVowel(character)
 
 Write a function `isCharacterAVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel and false, otherwise.
 
+function isCharacterAVowel (chr)
+{
+  if (chr == "A" ||chr == "E" ||chr == "I" ||chr == "O"|| chr == "U")
+  {
+    return true
+  }
+  else if ( chr== "a"|| chr == "e"|| chr == "i"||chr == "o"|| chr == "u")
+  {
+    return true
+  }
+  else 
+  {
+    return false
+  }
+}
+isCharacterAVowel("A")
 ---
 
 ### pow(base, exponent)
 
 Define a function `pow` that replicates the [Math.pow()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow) method in JavaScript's Math object.
 
+function pow (number , power)
+{
+  if (power == 1)
+  {
+    return number
+  }
+  else if (power == 0)
+  {
+    return 1
+  }
+  else 
+  {
+    return number * pow(number, power - 1);
+  }
+}
+pow (2,2)
 ---
 
 ## Reminder
