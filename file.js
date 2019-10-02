@@ -16,16 +16,6 @@ function currencyConverter(currency, amount){
   currencyConverter('USD', 15)
 
   // 2- The second answer is :
-  function isCharacterAVowel(c) {
-  var vowels = ['a','e','i','o','u'];
-  if (vowels.indexOf(c) !== -1) {
-    return true;
-  }
-  return false;
-}
-isCharacterAVowel()
-
-  // 3- The Third answer is :
 
   function isVowel(argument){
 
@@ -56,4 +46,11 @@ isCharacterAVowel()
       console.log(char + " is a vowel");
   } else {
       console.log(char + " is not a vowel");
-  }
+  } 
+// 3 - The Third Answer is :
+function mathPow() {
+        console.log(Math.pow(2, 3));  
+      }
+      mathPow();
+
+
