@@ -27,10 +27,10 @@ Define a function `pow` that replicates the [Math.pow()](https://developer.mozil
 ## Reminder
 Your opinion for this homework is very important! Please fill up the following questions when you pull request:
  * on a scale from 1 to 5, how comfortable were you with this assignment?
- * What was a win you had with this assignment?
+ * How long did it take?
  * What was a challenge you had with this assignment?
  * Is there anything that you'd like some further information on?
- * Other stuff on your mind? work with anyone? tell us about it!
+ * Do you have any suggestions to improve this assignment?
 
 ## Homework Submission
 https://github.com/SEI2-jeddah/General/tree/master/homework_submission
