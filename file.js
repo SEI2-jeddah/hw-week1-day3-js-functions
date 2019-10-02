@@ -18,9 +18,9 @@ function currencyConverter(currency, amount){
 
   // Question - 2
 
-  function isCharacterAVowel(c) {
+  function isCharacterAVowel(o) {
     var vowels = ['a','e','i','o','u'];
-    if (vowels.indexOf(c) !== -1) {
+    if (vowels.indexOf(o) !== -1) {
       return true;
     }
     return false;
